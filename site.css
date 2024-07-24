@@ -59,7 +59,7 @@ header{
 }
 .nav .togglebtn{
     color: white;
-    font-size: 1.5 rem;
+    font-size: 1.5rem;
     cursor: pointer;
     display: none;
 }
@@ -82,15 +82,27 @@ header{
 .actionbtn:active{
     scale: 0.95;
 }
-.dropdown_menu{
-    position: absolute;
-    right: 2rem;
-    top: 60px;
-    width: 300px;
-    background-color: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(15px);
+.hamburguer{
+    display: none;
+    cursor: pointer;
 }
-    
+.bar{
+    display: block;
+    width: 0.9rem;
+    height: 0.7rem;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
 }
 /*responsive design*/
-@media (max-width:900px){ .links{ visibility: hidden; } }
+@media(max-width:768px){
+    .hamburguer{
+        display: block;
+    }
+    .nav-links{
+        position: fixed;
+        
+    }
+}

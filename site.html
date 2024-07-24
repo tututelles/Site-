@@ -23,11 +23,11 @@
             <ion-icon name="menu"></ion-icon>
         </div>
     </div>
-    <div class="dropwdown_menu">
+    <div class="hamburger">
         <li><a href="#">loremipsum</a></li>
-            <li><a href="#">loremipsum</a></li>
-            <li><a href="#">loremipsum</a></li>
-            <li><a href="#">loremipsum</a></li>
+            <li class="bar"><a href="#">loremipsum</a></li>
+            <li class="bar"><a href="#">loremipsum</a></li>
+            <li class="bar"><a href="#">loremipsum</a></li>
             <li><a href="#" class="actionbtn">Get started</a></li>
     </div>
 </header>
@@ -35,6 +35,11 @@
 
 
 <script>
+    menu = document.querySelector(".togglebtn");
+    menu.onclick = function(){
+        navBar = document.querySelector("dropdown_menu");
+        navBar.ClassList.togle("active");
+    }
     
 </script>
 
