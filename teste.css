@@ -110,9 +110,11 @@ a {
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-  ::-webkit-scrollbar { 
+
+  ::-webkit-scrollbar {
     display: none;
   }
+
   .nav-menu {
     position: fixed;
     left: -100%;
@@ -140,38 +142,42 @@ a {
 
   .container2 {
     flex-direction: column;
-    margin-left: ;
-
   }
-  .container3{
+
+  .container3 {
     flex-direction: column;
-    height: 
-
   }
-  .scale-with-grid{
+
+  .scale-with-grid {
     margin-left: -50px;
   }
-  form{
+
+  form {
     margin-left: 20px;
     width: 200%;
     border-radius: 20px;
   }
-  .name{
+
+  .name {
     width: 200%;
   }
-  .btn{
+
+  .btn {
     width: 200%;
   }
-  .email{
+
+  .email {
     width: 200%;
   }
-  .textarea{
+
+  .textarea {
     width: 200%;
   }
-  .mapa{
+
+  .mapa {
     scale: 0.7;
     margin-left: -50px;
-    
+
   }
 }
 
@@ -179,7 +185,6 @@ a {
 
   font-size: 1.5rem;
   color: white;
-  background-color: ;
   font-weight: bold;
   transition: 0.5s;
 }
@@ -258,7 +263,7 @@ a {
   background-color: rgb(202, 201, 201);
 }
 
-.container2 .caixa1.img1 {}
+
 
 .container2 .caixa1 .texto1 {
   margin-top: 3.5rem;
@@ -328,7 +333,8 @@ form {
   flex-direction: column;
   width: 40%;
 }
-.name{
+
+.name {
   height: 40px;
   margin-bottom: 1.5%;
   border-radius: 60px;
@@ -337,7 +343,8 @@ form {
   color: white;
   padding-left: 10px;
 }
-.btn{
+
+.btn {
   height: 40px;
   margin-bottom: 1.5%;
   border-radius: 60px;
@@ -345,7 +352,8 @@ form {
   border: none;
   transition: 0.8s;
 }
-.email{
+
+.email {
   height: 40px;
   margin-bottom: 1.5%;
   border-radius: 60px;
@@ -354,10 +362,11 @@ form {
   color: white;
   padding-left: 10px;
 }
-.container3{
- display: flex;
+
+.container3 {
+  display: flex;
   background-color: rgba(255, 255, 255, 0.5);
-  
+
   width: 60%;
   margin-left: 15%;
   padding: 4% 3% 4% 3%;
@@ -374,12 +383,14 @@ form {
   scale: 0.95;
   font-weight: bold;
 }
-.container4{
+
+.container4 {
   display: flex;
   flex-direction: row;
-  
+
 }
-.textarea{
+
+.textarea {
   height: 150px;
   margin-bottom: 1.5%;
   border-radius: 20px;
@@ -392,23 +403,23 @@ form {
   padding: 10px;
   border: none;
 }
-.mapa{
-  
-}
-.icon1{
+
+.icon1 {
   font-size: 1.3rem;
   color: #262626;
   margin-top: 20px;
 }
-.txt{
+
+.txt {
   font-size: 2rem;
 }
-.caixa4{
-   width: 20rem;
+
+.caixa4 {
+  width: 20rem;
   margin-left: 4%;
 }
 
 
-.a{
+.a {
   display: none;
 }
