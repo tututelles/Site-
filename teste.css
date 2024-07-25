@@ -110,7 +110,9 @@ a {
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-
+  ::-webkit-scrollbar { 
+    display: none;
+  }
   .nav-menu {
     position: fixed;
     left: -100%;
@@ -138,8 +140,38 @@ a {
 
   .container2 {
     flex-direction: column;
-    margin-left: 25%;
+    margin-left: ;
 
+  }
+  .container3{
+    flex-direction: column;
+    height: 
+
+  }
+  .scale-with-grid{
+    margin-left: -50px;
+  }
+  form{
+    margin-left: 20px;
+    width: 200%;
+    border-radius: 20px;
+  }
+  .name{
+    width: 200%;
+  }
+  .btn{
+    width: 200%;
+  }
+  .email{
+    width: 200%;
+  }
+  .textarea{
+    width: 200%;
+  }
+  .mapa{
+    scale: 0.7;
+    margin-left: -50px;
+    
   }
 }
 
@@ -176,7 +208,8 @@ a {
 .container2 {
   display: flex;
   justify-content: space-around;
-  margin: 10%;
+  margin-left: -2%;
+  margin-bottom: 150px;
 }
 
 .caixa1 {
@@ -293,7 +326,7 @@ a {
 form {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 40%;
 }
 .name{
   height: 40px;
@@ -324,16 +357,16 @@ form {
 .container3{
  display: flex;
   background-color: rgba(255, 255, 255, 0.5);
-  height: 30rem;
+  
   width: 60%;
   margin-left: 15%;
   padding: 4% 3% 4% 3%;
   border-radius: 70px;
+  margin-bottom: 100px;
 }
 
 .btn:hover {
   scale: 1.05;
-  color: white;
   font-weight: bold;
 }
 
@@ -356,14 +389,26 @@ form {
   padding-left: 10px;
   resize: none;
   scrollbar-color: orange;
+  padding: 10px;
+  border: none;
 }
 .mapa{
   
 }
 .icon1{
+  font-size: 1.3rem;
+  color: #262626;
+  margin-top: 20px;
+}
+.txt{
   font-size: 2rem;
+}
+.caixa4{
+   width: 20rem;
+  margin-left: 4%;
 }
 
 
-
-
+.a{
+  display: none;
+}
