@@ -189,6 +189,8 @@ a {
   .container3{
     width: 400px;
     margin-left: 0px;
+    margin-right: 0px;
+    padding: 0;
   }
   .caixa1{
     padding-left: -35px;
