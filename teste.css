@@ -97,6 +97,7 @@ a {
 @media(max-width:1024px) {
   .hamburger {
     display: block;
+    
   }
 
   .hamburger.active .bar:nth-child(2) {
@@ -133,6 +134,7 @@ a {
 
   .nav-menu.active {
     left: 0;
+    width: 100%;
   }
 
   .container1 {
@@ -175,7 +177,7 @@ a {
   }
 
   .mapa {
-    scale: 0.7;
+    width: 60%;
     margin-left: -50px;
 
   }
