@@ -123,7 +123,7 @@ a {
     gap: 0;
     flex-direction: column;
     background-color: #262626;
-    width: 100%;
+    width: 60%;
     text-align: center;
     transition: 0.3s;
   }
@@ -144,6 +144,8 @@ a {
 
   .container2 {
     flex-direction: column;
+    margin-left: 0;
+    justify-content: space-between;
   }
 
   .container3 {
@@ -177,9 +179,24 @@ a {
   }
 
   .mapa {
-    width: 60%;
-    margin-left: -50px;
+    width: 100%;
+    margin-left: 0px;
 
+  }
+  .container2{
+    width: 300px;
+  }
+  .container3{
+    width: 300px;
+  }
+  .caixa1{
+    padding-left: -35px;
+  }
+  .caixa2{
+    padding-left: -35px;
+  }
+  .caixa3{
+    padding-left: -35px;
   }
 }
 
