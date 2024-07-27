@@ -148,12 +148,17 @@ a {
     justify-content: space-between;
   }
 
-  .container3 {
+  .container3{
     flex-direction: column;
+    width: 100%;
+    margin-left: -50px;
+    margin-right: 0px;
+    padding-left: -40;
+    height:800px ;
   }
 
   .scale-with-grid {
-    margin-left: -50px;
+    margin-left: -100px;
   }
 
   form {
@@ -187,10 +192,7 @@ a {
     width: 300px;
   }
   .container3{
-    width: 400px;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding: 0;
+    
   }
   .caixa1{
     padding-left: -35px;
@@ -200,6 +202,18 @@ a {
   }
   .caixa3{
     padding-left: -35px;
+  }
+  .container2 .caixa1 .texto2{
+    width: 200px;
+  }
+  .container2 .caixa2 .texto2{
+    width: 200px;
+  }
+  .container2 .caixa3 .texto2{
+    width: 200px;
+  }
+  .caixa4{
+    width: 95%;
   }
 }
 
@@ -303,7 +317,7 @@ a {
 }
 
 .container2 .caixa1 .texto2 {
-  width: 350px;
+  width: 80%;
   height: 100px;
   position: relative;
   top: -400px;
@@ -319,7 +333,7 @@ a {
 }
 
 .container2 .caixa3 .texto2 {
-  width: 30rem;
+  width: 80%;
   height: 100px;
   position: relative;
   top: -25rem;
@@ -335,7 +349,7 @@ a {
 }
 
 .container2 .caixa2 .texto2 {
-  width: 350px;
+  width:80%;
   height: 100px;
   position: relative;
   top: -400px;
@@ -389,8 +403,8 @@ form {
   display: flex;
   background-color: rgba(255, 255, 255, 0.5);
 
-  width: 60%;
-  margin-left: 15%;
+  width: 80%;
+  margin-left: 5%;
   padding: 4% 3% 4% 3%;
   border-radius: 70px;
   margin-bottom: 100px;
@@ -437,7 +451,6 @@ form {
 }
 
 .caixa4 {
-  width: 20rem;
   margin-left: 4%;
 }
 
