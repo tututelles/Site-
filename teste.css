@@ -99,7 +99,12 @@ a {
     display: block;
     
   }
-
+  header{
+    width: 143%;
+  }
+  html{
+    width: 70%;
+  }
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
   }
@@ -151,9 +156,6 @@ a {
   .container3{
     flex-direction: column;
     width: 100%;
-    margin-left: -50px;
-    margin-right: 0px;
-    padding-left: -40;
     height:800px ;
   }
 
@@ -196,6 +198,7 @@ a {
   }
   .caixa1{
     padding-left: -35px;
+    width: 100%;
   }
   .caixa2{
     padding-left: -35px;
@@ -317,7 +320,7 @@ a {
 }
 
 .container2 .caixa1 .texto2 {
-  width: 80%;
+  
   height: 100px;
   position: relative;
   top: -400px;
@@ -403,7 +406,7 @@ form {
   display: flex;
   background-color: rgba(255, 255, 255, 0.5);
 
-  width: 80%;
+  width: ;
   margin-left: 5%;
   padding: 4% 3% 4% 3%;
   border-radius: 70px;
