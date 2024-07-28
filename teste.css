@@ -252,7 +252,7 @@ a {
 .container2 {
   display: flex;
   justify-content: space-around;
-  margin-left: -3%;
+  margin-left: -5%;
   margin-bottom: 150px;
 }
 
