@@ -104,9 +104,12 @@
     width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
     referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
   </div>
-
-
-
+<script>
+  function setTopo(){
+    $(window).scrollLeft(0);
+}
+$(window).bind('scroll', setTopo);
+</script>
 
 
 
